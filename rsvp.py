@@ -12,8 +12,9 @@ client = gspread.authorize(creds)
 
 
 # Open the Google Sheet
-spreadsheet = client.open("Mariage")
-sheet = spreadsheet.worksheet("rsvp")  # Update with your sheet name
+spreadsheet_id = "1pPZtxn5rgesmWm4FZ5w6w2oVh9rOalgdJBDhN0Qou4w"  # Replace with your actual ID
+spreadsheet = client.open_by_key(spreadsheet_id)
+sheet = spreadsheet.worksheet("rsvp")
 
 
 st.title("RSVP for Our Wedding 🎉")
