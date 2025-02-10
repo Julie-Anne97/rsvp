@@ -8,7 +8,8 @@ creds = ServiceAccountCredentials.from_json_keyfile_name("rsvpmariage-3b302fac2e
 client = gspread.authorize(creds)
 
 # Open the Google Sheet
-sheet = client.open("Mariage").rsvp  # Update with your sheet name
+spreadsheet = client.open("Mariage")
+sheet = spreadsheet.worksheet("rsvp")  # Update with your sheet name
 
 st.title("RSVP for Our Wedding 🎉")
 
