@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rsvpmariage",
+  "private_key_id": "3b302fac2ed345746588fd1afc2f35285f8c3083",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrZftLgQ1jH+N6\nWBS8uDg/tpFtoSewukLjN5I9/ypRn5RCQNYZFRWo+X84FkP0+e6uLgl8/zpyxxmw\n7v/Lm5tEZ/Ou34jPnm9wsm2o1BSzOpCa79bziqX28qBQj/XGZcIF6Pz4s9oA2tvR\n6h/keLtDOv0QyGUYGGyZ9YznCMdJmwKlF9CXsQmftLCC7PTDDDQc0skWsU4Er5d+\nS6DLg9yBtDdbMTOtImrR7CsGW3qfIZ3WibEmn0bmbJT/hbdf/qF4+unMg4cLSe9I\nBSxdzmxoW4nqywcqUIdl9JwRcp9+KgLKaTYH6Pa4Gj+Tup0xC34WyQ21567eACzf\ndnAHeMb/AgMBAAECggEACz09PMbCI3lgV9H1zihAXAEzSR6TtTWJlE+9Eb6tPjv6\nI1wQDgYBbRqrOnjPTP2kppxTN/Selw8yQpVxhZ73EAXHB3UWChNIGHpC0ZrSnqwc\n9mP60u6JEof3dkDya2eZ0PxltkNI7NxtJLc3DyrRkMeJ97NEWc+kM3ZUHoRHWS6r\nAoDNA79jnNU5eIjc3uN0JU7hLHVg3WEPuWXsf0ddr5NI8vy4GT5XeUAtjXdNeaYP\n0L1hpdPqVqztinSQOJnIGRxwcQvCfKMgWFzAFgabZpbm0skfaO5vLe4NboBGm8yA\ngZDvtuRIE6kvlWGbEMFc2eFhuvFGX6dTQ4LLMfZ4uQKBgQDXlmAmHVJ9Q4WX/eav\nwF0yoiZaockvoa+FKIbJrB0DUBgC63eHanj+r7mESMmgbiAA3oENsyGXzkOti8VI\nMfFahegnEcXHD8E1RtuS39abcCx8poPZ3d7JsQlCtI5txWLnRNYWeS+c23mqOVwc\nO/mjt9B8idKvYWgiTv1L6w5AdwKBgQDLhw8kiHaXyMJVYl1s6DcmXe4EwpyvNvP5\nDNjVBpHFNjLibDr+QpN1RaH3/Bi4oH0LGE8GzPXqRXJPhu1Hlg9hSR6Fws0HDhzv\nxEbZ7gldJ5VHPxlEWUpyxr8ggCTo9ANYClQr3m2j2cCWZDd1hzpS/Bn6nubm8sSa\nrDqrjoqXuQKBgF+p2aZwEn+FK83DG89XI8PpEe3bpqOdMn56+jyZRBKJQu5gwBx1\n0ZTqMv8RMW8gDtFz6n5Cw6BSJdPnlrYvezK5Asf7afCn/AsBE0P8UYWN5B+34AAY\nJNkI1twjtKPfF8EZ2YoFYmxPM5CmfUoGDwNn+HqaycOLDKNUu68pcZyHAoGBALig\nlTkD3ekFAl0odS3FXbodPTzuOeqsRBep8s0UP4oSB4jku4NJa7DXcP2fn+FkHOrC\nq3W02mQhiXfhI0BsPRl4lgqrUwhSYieS+t7ZE3+A1+cgs1AQW/vQlTLrbBAywxHL\nlN2S0gzwDMegs7qW6G69KOfz2+ynT3gsQrC8BrdpAoGASxcPhrs8hBri3BQsbpDC\nCGMtGLgm5Wk9zUdLb0YyEWwzgzPRQVXum7C25RjM96zbfyNkzDvOKdrvxkqCVYFW\nxWrlTPdLSdl9MqPrH7ai3N/vursGz4Ufs3J6Xt0xtA/1TE6Roo/kJKo5CZoGPhO7\nAumMFIb+nIXOBo2qLfDzcmQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rsvp-bot@rsvpmariage.iam.gserviceaccount.com",
+  "client_id": "108847314310831515091",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rsvp-bot%40rsvpmariage.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
