@@ -6,7 +6,7 @@ from google.oauth2.service_account import Credentials
 
 scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
-creds = Credentials.from_service_account_file("rsvpmariage-3b302fac2ed3.json", scopes=scopes)
+creds = Credentials.from_service_account_file("Documents/Mariage/rsvp/rsvpmariage-3b302fac2ed3.json")
 
 client = gspread.authorize(creds)
 
