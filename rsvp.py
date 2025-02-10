@@ -2,14 +2,19 @@ import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-# Google Sheets authentication
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("rsvpmariage-3b302fac2ed3.json", scope)
+from google.oauth2.service_account import Credentials
+
+scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+
+creds = Credentials.from_service_account_file("rsvpmariage-3b302fac2ed3.json", scopes=scopes)
+
 client = gspread.authorize(creds)
+
 
 # Open the Google Sheet
 spreadsheet = client.open("Mariage")
 sheet = spreadsheet.worksheet("rsvp")  # Update with your sheet name
+
 
 st.title("RSVP for Our Wedding 🎉")
 
